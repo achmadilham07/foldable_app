@@ -1,16 +1,14 @@
-# foldable_app
+# Foldable App
 
-A new Flutter project.
+## Screenshot
+![Alt text](assets/droidjam-github-01.gif?raw=true "Dual Screen with TwoPage Widget")
+![Alt text](assets/droidjam-github-02.gif?raw=true "Dual Screen on Emulator")
+![Alt text](assets/droidjam-github-03.gif?raw=true "Combine with Navigation")
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+1. To use Google Maps, you need to configure an API Project with the [Google Maps Platform](https://cloud.google.com/maps-platform/), following the [Maps SDK for Android's Using API Key](https://developers.google.com/maps/documentation/android-sdk/signup). 
+2. After get an API Key, you can put that in **local.properties** inside **android/** folder. Set the `mapsApiKey` key with your API-Key.
+    ```
+    mapsApiKey=<YOUR-KEY-HERE>
+    ```
+3. Then, you can build and run the project.
